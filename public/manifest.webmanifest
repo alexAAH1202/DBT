@@ -1,0 +1,24 @@
+{
+  "name": "Steady",
+  "short_name": "Steady",
+  "description": "A gentle, private mood and DBT skills tracker. Everything stays on your phone.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbf5ee",
+  "theme_color": "#fbf5ee",
+  "lang": "en-AU",
+  "categories": ["health", "lifestyle", "medical"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Quick log", "short_name": "Quick log", "url": "./#/quick", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Check-in", "short_name": "Check-in", "url": "./#/checkin", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Riding a wave", "short_name": "Wave", "url": "./#/wave", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
